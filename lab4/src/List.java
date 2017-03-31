@@ -1,0 +1,20 @@
+/**
+ * Created by Dudder on 2017.03.27..
+ */
+public interface List<E> {
+    void clear();
+    void insert(E e, Node before);
+    void add(E e);
+    void set(Node node, E data);
+    void remove(E data);
+    Node first();
+    Node last();
+    Node middle();
+    Object elementAt(Node node);
+    int size();
+    boolean isEmpty();
+    boolean exists(E e);
+    E find(E e);
+    public String toString();
+}
+
